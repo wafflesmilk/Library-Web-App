@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HD Project</title>
+
+    <!--vuetify-->
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@6.x/css/materialdesignicons.min.css" rel="stylesheet"> <!-- link to material design -->
+    <link href="https://cdn.jsdelivr.net/npm/vuetify@3.6.8/dist/vuetify.min.css" rel="stylesheet"> <!-- link to vuetify -->
+
+     <!--css-->
+     <!--load css file after vuetify-->
+     <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <v-app>
+            <app-main></app-main>
+        </v-app>
+    </div>
+
+    <!-- Vue JS  -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+    <!-- Vue Paginate Next  -->
+    <script src="https://unpkg.com/vuejs-paginate-next@latest/dist/vuejs-paginate-next.umd.js"></script>
+
+    <!-- Vuetify  -->
+    <script src="https://cdn.jsdelivr.net/npm/vuetify@3.6.8/dist/vuetify.min.js"></script>
+
+    <!--Vue Routes-->
+    <script src="https://unpkg.com/vue-router@4"></script>
+
+    <!--Components-->
+    <script src="js/components/app-signup.js"></script>
+    <script src="js/components/app-login.js"></script>
+    <script src="js/components/app-home.js"></script>
+    <script src="js/components/app-current-reading.js"></script>
+    <script src="js/components/app-read.js"></script>
+    <script src="js/components/app-to-read.js"></script>
+	<!-- Load the custom main js file -->
+    <script src="js/main.js"></script>
+</body>
+</html>
